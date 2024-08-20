@@ -1,46 +1,9 @@
-# Module 7: Welcome Starter Pack
+# Module 7: Capstone Project Requirements & Resources
 
 This repo is meant to hold convenient links for you to use during your capstone projects, and to give a summarized compilation of project requirements. Note this is a living document, things will be continuously changed and updated as needed but capstone requirements WILL NOT change.
 
-```txt
-⚠️ IMPORTANT NOTE: If you are checking this out before your first capstone week officially begins please make sure you are keeping your pre-capstone project your top priority. All of this should be considered secondary until that project is done.
-```
-
-## Table of Contents
-- [Capstone Project Requirements](https://github.com/crespohector/welcome-to-mod-7#capstone-project-requirements)
-   - [Capstone Minimum Required Error Messages](https://github.com/crespohector/welcome-to-mod-7/blob/main/README.md#error-validations)
-- [The Big Picture](https://github.com/crespohector/welcome-to-mod-7#the-big-picture)
-- [Mental Health Resources](https://github.com/crespohector/welcome-to-mod-7/blob/main/README.md#mental-health-resources)
-- [Module 7 Calendar](https://github.com/crespohector/welcome-to-mod-7#google-calendar)
-- [Cheating](https://github.com/crespohector/welcome-to-mod-7#cheating)
-- [Phase 1 - Project Approval](https://github.com/crespohector/welcome-to-mod-7#phase-1---project-approval)
-   - [Capstone Project Proposals](https://github.com/crespohector/welcome-to-mod-7#capstone-project-proposals)
-   - [GitHub Wiki Documentation Example Links](https://github.com/crespohector/welcome-to-mod-7#github-wiki-documentation-example-links)
-   - [Project Proposal Form](https://github.com/crespohector/welcome-to-mod-7#project-proposal-form)
-   - [Projects We've Seen Go Well](https://github.com/crespohector/welcome-to-mod-7#projects-weve-seen-go-well)
-   - [Project We've Seen Students Struggle With](https://github.com/crespohector/welcome-to-mod-7#projects-weve-seen-students-struggle-with)
-   - [Projects that are not allowed](https://github.com/crespohector/welcome-to-mod-7#projects-that-are-not-allowed)
-   - [Using External Packages](https://github.com/crespohector/welcome-to-mod-7#using-external-packages-npm--pip)
-   - [List of Approved NPM Packages](https://github.com/crespohector/welcome-to-mod-7#list-of-approved-npm-packages)
-   - [Question Emoji System](https://github.com/crespohector/welcome-to-mod-7/blob/main/README.md#lecture-questions-emoji-system)
-   - [Good Question Template](https://github.com/crespohector/welcome-to-mod-7/blob/main/README.md#good-question-template)
-- [Phase 2 - Project Development](https://github.com/crespohector/welcome-to-mod-7#phase-2---project-development)
-   - [Workflow Expectations](https://github.com/crespohector/welcome-to-mod-7#workflow-expectations)
-   - [Good Question Template](https://github.com/crespohector/welcome-to-mod-7#good-question-template)
-   - [Helpful Development Links](https://github.com/crespohector/welcome-to-mod-7#some-useful-development-links)
-- [Phase 2.5 - Peer Review](https://github.com/crespohector/welcome-to-mod-7#phase-25---peer-review)
-- [Phase 3 - Feature Reviews & Final Grade](https://github.com/crespohector/welcome-to-mod-7/blob/main/README.md#phase-3---feature-reviews--final-grading)
-   - [Feature Reviews](https://github.com/crespohector/welcome-to-mod-7/blob/main/README.md#feature-reviews)
-   - [Review Your Scorecard](https://github.com/crespohector/welcome-to-mod-7/blob/main/README.md#review-your-scorecard)
-   - [Test Test Test Your Features](https://github.com/crespohector/welcome-to-mod-7/blob/main/README.md#test-test-test-your-features)
-   - [Final Grade](https://github.com/crespohector/welcome-to-mod-7/blob/main/README.md#final-grade)
-- [Future Goals After Capstone](https://github.com/crespohector/welcome-to-mod-7/blob/main/README.md#future-goals-after-final-grade)
-   - [What Should Be In A Readme](https://github.com/crespohector/welcome-to-mod-7/blob/main/README.md#what-should-be-in-a-readme)
-   - [About Me Links](https://github.com/crespohector/welcome-to-mod-7/blob/main/README.md#about-links)
-   - [How to keep your website alive](https://github.com/crespohector/welcome-to-mod-7#how-to-keep-your-website-alive-this-will-require-scheduled-get-requests)
-
 ## Capstone Project Requirements
-Projects must have a minimum of **2 working CRUD features** and **base requirements** *(User Auth)* completed by final grade *(W23 D1)*. Only the live site will be used for grading.
+Projects must have a minimum of **2 working CRUD features** and **base requirements** *(User Auth)* completed by final grade *(W45 D1)*. Only the live site will be used for grading.
 
 ![scorecard](https://user-images.githubusercontent.com/76798385/229187286-ba7411c1-5369-4756-9228-e9d3a8234005.png)
 
@@ -49,9 +12,9 @@ Projects must have a minimum of **2 working CRUD features** and **base requireme
 1. Listings: Create, Read, Update, Destroy
 2. Bookings: Create, Read, Destroy (Not Editable)
 3. Reviews: Create, Read, Update, Destroy
-4. Ratings: Create, Read (Not Editable, Destroyed with Reviews)
+4. Favorites: Create, Read, Destroy
 5. *Bonus* Search: Backend Fetch w/ Params (ideal), Frontend filtering.
-6. *Bonus* Google API: Integration
+6. *Bonus* Google API: Integration (i.e. Google Maps)
 
 The first feature has to be **full** CRUD. and the second feature can be **3/4** CRUD or full CRUD. In the example above, the bookings feature has the create, read, and Delete. Ideally, update and delete perform the same action so this feature would be considered 3/4 CRUD.
 
@@ -70,7 +33,7 @@ When a User goes to Edit/Update a resource, the edit form must be prepopulated w
 
 ## The Big Picture
 
-The Capstone Project is an assessment to test your programming and software engineering skills. The ideal expectation is to have a completed MVP (minimum viable product) application done by W22D2, then use the remaining time to refactor to include additional features and/or polish the user interface and improve the user experience. The long-term goal is to present our best work to recruiters to demonstrate our technical abilities.
+The Capstone Project is an assessment to test your programming and software engineering skills. The ideal expectation is to have a completed MVP (minimum viable product) application done by W43D5, then use the remaining time to refactor to include additional features and/or polish the user interface and improve the user experience. The long-term goal is to present our best work to recruiters to demonstrate our technical abilities.
 
 Remember, a minimum viable product (MVP) is the absolute least you can put out that is also a usable product. For your capstone project, this means 2 fully functional CRUD features with validation error messages that are intuitive and simple to use by someone who has never seen the app before.
 
@@ -102,7 +65,7 @@ Taking care of our mental health is an important aspect of our life. Please make
 Students plagiarising another student's source code will be dismissed. This is an assessment to utilize the knowledge gained from the previous modules to build what you have learned.
 
 ## Camera Etiquacy
-Students **MUST** have their cameras on during live lectures in Module 7, including during the Career Quest. Students who have their cameras off, are AFK/not present, or do not show their full face in the camera view, will receive a **strike**. Students who need to step away from the camera for a brief moment, please use the coffee reaction emoji on Zoom that says "I'm away". Students who need to be away from the camera for more than 15 minutes, please communicate with the staff.
+Students **MUST** have their cameras on during live lectures and anytime they're interacting with staff or students in Module 7, including during the Career Quest. Students who have their cameras off, are AFK/not present, or do not show their full face in the camera view, will receive a **strike**.
 
 ## Some Useful Development Links
 
@@ -110,7 +73,7 @@ Students **MUST** have their cameras on during live lectures in Module 7, includ
 * [Express Project Starter Frontend (authenticate me)](https://github.com/appacademy/practice-for-sprint-15-react-redux-authenticate-me-for-render-deployment)
 * [Express Project Starter Backend (authenticate me)](https://github.com/appacademy/practice-for-sprint-12-authenticate-me-for-render-deployment)
 * [Flask-SQLAlchemy Quick Reference](https://hackmd.io/@app-academy/flask-sqlalchemy-reference)
-* Flask AWS S3 for Image Uploads - a/a Open --> Week 21 Career Quest I --> Solo Project --> AWS s3 (Recall: Python-Flask)
+* [Flask AWS S3 for Image Uploads](https://github.com/appacademy/Module-6-Resources/tree/main/group_project_resources/AWS)
 * [Express AWS S3 for Image Uploads](https://github.com/jdrichardsappacad/aws-s3-pern-demo)
 * [Flask Websockets for Chat Features](https://hackmd.io/oTn-ZTjcQRO5Ghbv9tO9ug)
 * [Easy Modals Using React Context!](https://github.com/whitnessme/context-modal-instructions)
@@ -123,20 +86,15 @@ Students **MUST** have their cameras on during live lectures in Module 7, includ
 # Phase 1 - Project Approval
 
 ## Capstone Project Proposals
-All students should have a **target website** they will clone or use for inspiration. You must submit the [Google Project Proposal Form](https://forms.gle/VfwHSR88QZo73jUt5) and get approval from an IA before implementing the features. The deadline for all project proposals will have to be submitted by the **end of lunch** on W21D2.
+You must submit a Project proposal and get approval from an Instructor before implementing the features. The deadline for all project proposals will have to be submitted by the **end of day** on W41D4.
 
-If you're currently waiting for an IA to review your project proposal, please utilize the time appropriately and continue to be productive *(initialize your project + deploy skeleton starter, set up your GitHub repo, project kanban board, etc.)*.
+If you're currently waiting for an Instructor to review your project proposal, please utilize the time appropriately and continue to be productive *(initialize your project + deploy skeleton starter, set up your GitHub repo, project kanban board, etc.)*.
 
-The Mod 7 staff will review your GitHub repo wiki documents based on the submission order. You can view the queue to see when your project is being reviewed in the Capstone Project Proposal Responses Google Spreadsheet. [Link to Proposal Responses](https://docs.google.com/spreadsheets/d/1CkUpeCLUL0x7Oo8aVzzRiR3Kj55GHgHGbTXtsPoapp4/edit?resourcekey#gid=640829555)
+The Mod 7 staff will review your GitHub repo wiki documents based on the submission order.
 
 *Note- Any project proposal without all the required wiki documentation will be disapproved and asked to complete.*
 
-IA's will have open office hours during the **Project Approval Phase** to help provide guidance on project proposals.
-
-### Project Proposal Form
-After the required wiki documentation is completed on GitHub, submit this Google project proposal form.
-
-[Project Proposal Form](https://forms.gle/VfwHSR88QZo73jUt5)
+Instructor's will have open office hours during the **Project Approval Phase** to help provide guidance on project proposals.
 
 ---
 ## The Purpose of User Stories
@@ -210,20 +168,20 @@ This is optional if you wish to utilize a project management tool to help organi
 Because IA's are asked to answer all questions asynchronously when possible and because capstone issues can often take hours to address, the IA's will use slack reaction emojis to communicate the status of your question. Please pay attention to these emojis and consider them official communication. If it seems odd to take emojis seriously welcome to the tech world!
 
 # 👀
-The eyeballs mean the IA's are aware of the question and are looking into it / discussing it in the Staff Room. There may be other questions ahead of yours and it may take time to resolve the question based on the complexity of the problem and how clear the question was, if screenshots or commits were provided, etc.
+The eyeballs mean the Instructor is aware of the question is are looking into it. There may be other questions ahead of yours and it may take time to resolve the question based on the complexity of the problem and how clear the question was, if screenshots or commits were provided, etc.
 
 # ✅
-The green check means that an IA or the student has confirmed that the question has been resolved. If this isn't correct, tag one of the IA's in the thread or re-post the question.
+The green check means that an Instructor or the student has confirmed that the question has been resolved. If this isn't correct, tag the Instructor in the thread or re-post the question.
 
 # ☑️
-The gray or blue check means the question seems to have been resolved by an IA or other student but is awaiting some form of confirmation.
+The gray or blue check means the question seems to have been resolved by an Instructor or other student but is awaiting some form of confirmation.
 
 # ⚠️ or ❌
 The alert emoji means the question may not be specific enough or may not show clear evidence of independent student research on AAO, Stack Overflow, Google, etc.
 
-Before the IA's can effectively address the question, the student will need to add more information, screenshots, and a description of what you have done so far in terms of research and solution attempts.
+Before the Instructor can effectively address the question, the student will need to add more information, screenshots, and a description of what you have done so far in terms of research and solution attempts.
 
-Once you have revised the question, tag the IAs or re-post a new version of the question in the lecture questions channel.
+Once you have revised the question, tag the Instroctor or re-post a new version of the question in the lecture questions channel.
 
 ### Good Question Template
 
@@ -238,32 +196,6 @@ To ensure the quickest possible response to a question, you are encouraged to co
 ---
 
 # Phase 2 - Project Development
-
-<!--
-## Daily Standups
-This will **begin on W21D3**. You will have daily stand-ups with your Project Manager (PM). Daily standups will take place between groups of 3-5 students from your circle.
-Each student will take roughly 1-5 minutes to screen-share their Kanban board to discuss their plan for the day. Standup times will always be announced in your circle channel. Your PM will ask a small handful of questions while taking brief notes that are shared with the rest of the Mod 7 team.
-
->**Please note: you will receive strikes for missing standups!**
-
-### Questions For Students:
-
-* What progress did you make on your goal from yesterday?
-* What is your goal for today that you plan to complete before the next standup?
-* Do you foresee any potential blockers?
-
-### Additional Questions That May Be Asked For Students:
-* When did you last deploy?
-* Is all the code you are showing deployed?
-* What is your project status in terms of user stories?
-* Can you demo any CRUD of the feature on the UI?
-
-### Other Standup Notes
-
-* If **technical questions come up**, your PM will ask you to put them in the lecture questions channel as we will not have time to debug during standups.
-* IA notes will include whether you met yesterday's goal fully / partially / not at all.
-  -->
-
 
 ## Workflow Expectations
 
@@ -283,45 +215,6 @@ Each student will take roughly 1-5 minutes to screen-share their Kanban board to
 * Make sure to push to GitHub daily. *(We want to see that garden green)*
 * You are encouraged to use branches to complete your features and to push to your main branch when you have working functionality.
    * Please remember to test the feature not only on local but on Production as well to ensure it works as expected.
-
----
-
-# Phase 2.5 - Peer Review
-
-Peer Review will start on Thursday of the first week of capstone every day after lunch, at 12:30 PT / 3:30 EST for a total of 45 minutes. Students will get assigned a pair, posted to Slack every day, to review each other's code. Below are guidelines to help illustrate how peer review will work. Please note, that during this time, instructors will not be available for questions on Slack.
-
-*Note- We will also do a short demo the morning of the day peer review starts.*
-
-> This exercise is helpful to practice communicating what your code does when an interviewer or coworker asks you to explain parts of your code.
-
-## Steps:
-
-1. Choose who goes first. You each get 20 minutes and should have a timer set up.
-2. Your **partner** will choose a specific file for you to read from.
-    - Could be something you are proud of, something new, your redux store, your routes, your React components, your CSS, your API routes, etc...
-3. You will begin reading your partner's code file line by line, explaining the workflow of their code.
-
-## Things to consider:
-
-1. This **IS NOT** time to mainly debug or code.
-2. Both sides are responsible for getting equal time.
-3. Students are responsible to give and receive constructive feedback and commit to the exercise.
-4. IA’s will be jumping in rooms periodically to check progress and could ask questions!
-5. Students will receive strikes if not committed to the exercise *(webcam is off, no discussions)*
-6. If you finish the section of code you had planned to go over early, pick another file and continue to walk through your code. If you are lost on what code to share, you can always go through the starter code!
-
-## Tips:
-
-1. Write down notes of things you notice about your code.
-     - Mistakes, things you missed, things you want to change, etc...
-2. Pay attention to the way your partner has coded things.
-    - Seeing how others' code can give new ideas! Or solve a problem you already have!
-3. Use code-centric instead of human-centric language. _(refer back to AOO, W2, HW for Wednesday, “Empathetic Communication” for a refresher!)_
-4. Ask clarifying questions.
-5. Take notice of how your partner read and understood your code so that you can gauge your work’s readability.
-6. If your partner did have a hard time reading a line/snippet of code, be sure to add comments to those to help you understand your code in the future.
-7. Take feedback as something constructive and helpful for improvement. (On the flip side, be aware of how you present constructive feedback)
-8. Go through the starter project code *(user auth)* if you finish early.
 
 ---
 
